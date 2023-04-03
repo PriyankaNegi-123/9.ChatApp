@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.auth{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+}
+.auth p{
+    margin: 2rem auto;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.auth button{
+    padding: 0.6rem 0.9rem;
+    background-color: rgb(56, 56, 234);
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-bottom: 9rem;
+}
+.room{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.room label{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem auto;
+}
+.room input{
+    padding: 0.4rem 1rem;
+    font-size: 1rem;
+}
+.room button{
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    background-color: rgb(56, 56, 234);
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.sign-out{
+    text-align: center;
+}
+.sign-out button{
+    padding: 0.5rem 1rem;
+    text-align: center;
+    background-color: rgb(56, 56, 234);
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.chat-app{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: auto;
+    justify-content: center;
+    border: 2px solid gray;
+}
+.chat-app h1{
+    font-size: 1.7rem;
+    color: rgb(116, 33, 3);
+    text-align: center;
+}
+.new-message-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+}
+.user{
+    padding-right: 0.4rem;
+    padding-left: 1rem;
+    color: gray;
+}
+.new-message-form input{
+    border: none;
+    font-size: 1.2rem;
+    outline: none;
+}
+.new-message-form button{
+    padding: 0.2rem 0.6rem;
+    background-color: rgb(56, 56, 234);
+    border: none;
+    color: white;
+}
+.message{
+    padding: 3rem auto;
+}
